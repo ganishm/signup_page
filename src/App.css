@@ -36,3 +36,85 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+/* SignUpForm.css */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: radial-gradient(#fff, #9984ca);;
+}
+
+form {
+  width: 400px;
+  padding: 45px 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-top: 8px solid #f6163b;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+button {
+  width: 100%;
+  border: none;
+  padding: 10px 0;
+  border-bottom: 2px solid #ccc;
+}
+
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+  text-align: left;
+}
+
+button {
+  background-color: #f6163b;
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  width: 25%;
+  margin-top: 15px;
+}
+
+
+::placeholder {
+  color: #131212;
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.terms {
+  display: flex;
+  margin-bottom: 0px;
+}
+
+#termsAndConditions {
+  display: inline;
+  width: 15px;
+}
+
+h1, p {
+  margin: 0;
+  padding: 0;
+}
